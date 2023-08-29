@@ -14,7 +14,7 @@ public protocol ViewCode: AnyObject {
     func configureAdditionalBehaviors()
 }
 
-extension ViewCode {
+public extension ViewCode {
     func initViewCode() {
         configureSubviews()
         configureConstraints()
